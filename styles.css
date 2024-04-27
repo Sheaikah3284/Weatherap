@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 html {
-    background: url(https://s3-alpha-sig.figma.com/img/b791/11fd/539e57b18235d238c9063cafd2ebedc5?Expires=1690761600&Signature=AROulcJDl9xsoIz1-xa9dZ8orq7XEvvsUDTLHyI6E-0IdTenqnfExcfg8rGRzDZe8KuM-rAphi9q0icaGwaSMW3Z4ZdHZ2RMjCFCJo98Z3hTnSXlywFyO3wSgRzbm3e9ZK7eDB26qPk9dayt5eDgPakN8ROmvVLuRyaTHJmIwxmj~WtvYTAp3lHbPtY1ef60j95IYBWlxXzO0hVxjvbICgIH2boxwvxxCztarSt~mNrb2EW82GvM0FbcDyOrUvPR6Rq3ylPoa8RnVPwiZMGPZ1BlKl9U82IY-oLLrgAzfxsVsaxuKqDgKAHnKz~vPdjAR6mhwsPVkA9mSfucM1qO3A__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4) no-repeat center center fixed;
+    background: url(evgeni-tcherkasski-f25Zz7connY-unsplash.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -75,8 +75,8 @@ html {
 
 .info #type {
     position: absolute;
-    bottom: 3%;
-    right: 3%;
+    bottom: 60%;
+    right: 9%;
     background: rgba(0, 0, 0, 0.58);;
     background-size: 500px;
     border: none;
@@ -112,7 +112,7 @@ html {
         border-radius: 42px;
     }
     .info #type {
-        font-size: 25px;
+        font-size: 19px;
     }
 }
 
