@@ -5,7 +5,6 @@ html {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    transition: .5s ease-in-out;
 }
 
 .center {
@@ -20,6 +19,8 @@ html {
     transition: .5s ease-in-out;
     border: none;
     background: rgba(0, 0, 0, 0.58);;
+    width: 269px;
+    height: 265px;
 }
 
 .center input {
@@ -41,16 +42,11 @@ html {
     padding: 4px 5px;
     font-size: 1vw;
     box-shadow: -5px 10px 45px black;
+    cursor: pointer;
 }
 
 .center button:hover {
     background: #000000ba;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
-    justify-content: center;
 }
 
 .search {
@@ -84,6 +80,7 @@ html {
     font-size: 17px;
     font-family: "Inter", sans-serif;
 }
+
 .info #type:hover {
     background: #000000ba;
 }
@@ -118,21 +115,31 @@ html {
     border: none;
     background: rgba(0, 0, 0, 0.58);;
     flex-direction: column;
+    justify-content: center;
     width: 125px;
-    height: 127px;
+    height: 125px;
+    align-items: flex-start;
 }
 
-.uv-index h2 {
+.uv-index #uv-text {
     font-size: 15px;
     color: rgba(255, 255, 255, 0.65);
 }
 
-#rating {
+.uv-index #rating {
     font-size: 22px;
     color: white;
 }
 
+.uv-index #index-num {
+    font-size: 22px;
+    color: white;
+}
 
+.uv-index #uv-note {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.65);
+}
 
 @media screen and (max-width: 1024px) {
     .center button {
@@ -155,14 +162,5 @@ html {
     }
     .info #type {
         font-size: 19px;
-    }
-}
-
-@media (prefers-color-scheme:dark) {
-    .center {
-        background: rgba(0, 0, 0, 0.58);;
-    }
-    .center button {
-        background: rgba(0, 0, 0, 0.58);;
     }
 }
