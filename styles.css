@@ -92,13 +92,33 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(100%, -160%);
+    transform: translate(100%, -95%);
     padding: 15px;
     border-radius: 15px;
     transition: .5s ease-in-out;
     border: none;
     background: rgba(0, 0, 0, 0.58);;
+    flex-direction: column;
+    justify-content: center;
+    width: 125px;
+    height: 125px;
+    align-items: flex-start;
 
+}
+
+#title-feel {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#temp-feel {
+    color: white;
+    font-size: 24px;
+}
+
+#feel-note {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.65);
 }
 
 .uv-index{
@@ -108,7 +128,7 @@ html {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(100%, -20%);
+    transform: translate(100%, -5%);
     padding: 15px;
     border-radius: 15px;
     transition: .5s ease-in-out;
